@@ -1,0 +1,111 @@
+[01-Mar-2025 22:40:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/test.inovasimasadepan.com/artisan.php:3
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/test.inovasimasadepan.com/artisan.php on line 3
+[01-Mar-2025 22:40:54 UTC] PHP Warning:  require(/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php): Failed to open stream: No such file or directory in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 22:40:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/inovasi5/test.inovasimasadepan.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 22:40:56 UTC] PHP Warning:  require(/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php): Failed to open stream: No such file or directory in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 22:40:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/inovasi5/test.inovasimasadepan.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 22:41:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/test.inovasimasadepan.com/artisan.php:3
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/test.inovasimasadepan.com/artisan.php on line 3
+[01-Mar-2025 22:49:30 UTC] PHP Warning:  require(/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php): Failed to open stream: No such file or directory in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 22:49:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/inovasi5/test.inovasimasadepan.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 22:52:41 UTC] PHP Warning:  require(/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php): Failed to open stream: No such file or directory in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 22:52:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/inovasi5/test.inovasimasadepan.com/../project/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/inovasi5/test.inovasimasadepan.com/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/test.inovasimasadepan.com/index.php on line 13
+[01-Mar-2025 23:14:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:3
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 3
+[01-Mar-2025 23:19:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:3
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 3
+[01-Mar-2025 23:22:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 2
+[01-Mar-2025 23:22:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 2
+[01-Mar-2025 23:22:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 2
+[01-Mar-2025 23:22:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 2
+[01-Mar-2025 23:22:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 2
+[01-Mar-2025 23:22:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 2
+[01-Mar-2025 23:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:2
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 2
+[01-Mar-2025 23:24:40 UTC] PHP Warning:  symlink(): No such file or directory in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:26:34 UTC] PHP Warning:  symlink(): No such file or directory in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:26:48 UTC] PHP Warning:  symlink(): No such file or directory in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:10 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:12 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:13 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:14 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:14 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:15 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:16 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:28:16 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:30:14 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[01-Mar-2025 23:30:17 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[03-Mar-2025 07:59:31 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[03-Mar-2025 07:59:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shell_exec() in /DATA/inovasi5/public_html/artisan.php:11
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 11
+[10-Mar-2025 10:35:50 UTC] PHP Warning:  symlink(): File exists in /DATA/inovasi5/public_html/artisan.php on line 5
+[10-Mar-2025 10:35:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function passthru() in /DATA/inovasi5/public_html/artisan.php:12
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_html/artisan.php on line 12
+[12-Mar-2025 12:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function passthru() in /DATA/inovasi5/public_inovasimasadepan/artisan.php:12
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_inovasimasadepan/artisan.php on line 12
+[15-Mar-2025 00:54:50 UTC] PHP Parse error:  syntax error, unexpected token "if" in /DATA/inovasi5/public_inovasimasadepan/artisan.php on line 8
+[15-Mar-2025 00:55:00 UTC] PHP Parse error:  syntax error, unexpected token "if" in /DATA/inovasi5/public_inovasimasadepan/artisan.php on line 8
+[15-Mar-2025 00:56:07 UTC] PHP Parse error:  syntax error, unexpected token "if" in /DATA/inovasi5/public_inovasimasadepan/artisan.php on line 8
+[22-May-2025 00:17:49 UTC] PHP Parse error:  syntax error, unexpected identifier "artisan" in /DATA/inovasi5/public_html/seed.php on line 2
+[02-Aug-2025 09:08:35 UTC] PHP Warning:  require(/DATA/inovasi5/public_inovasimasadepan/vendor/autoload.php): Failed to open stream: No such file or directory in /DATA/inovasi5/public_inovasimasadepan/artisan on line 9
+[02-Aug-2025 09:08:35 UTC] PHP Stack trace:
+[02-Aug-2025 09:08:35 UTC] PHP   1. {main}() /DATA/inovasi5/public_inovasimasadepan/artisan:0
+[02-Aug-2025 09:08:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/inovasi5/public_inovasimasadepan/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/inovasi5/public_inovasimasadepan/artisan:9
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_inovasimasadepan/artisan on line 9
+[02-Aug-2025 09:08:40 UTC] PHP Warning:  require(/DATA/inovasi5/public_inovasimasadepan/vendor/autoload.php): Failed to open stream: No such file or directory in /DATA/inovasi5/public_inovasimasadepan/artisan on line 9
+[02-Aug-2025 09:08:40 UTC] PHP Stack trace:
+[02-Aug-2025 09:08:40 UTC] PHP   1. {main}() /DATA/inovasi5/public_inovasimasadepan/artisan:0
+[02-Aug-2025 09:08:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/DATA/inovasi5/public_inovasimasadepan/vendor/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /DATA/inovasi5/public_inovasimasadepan/artisan:9
+Stack trace:
+#0 {main}
+  thrown in /DATA/inovasi5/public_inovasimasadepan/artisan on line 9
+[29-Jan-2026 23:51:35 UTC] PHP Fatal error:  Cannot access "static" when no class scope is active in Unknown on line 0
+[02-Jun-2026 08:51:26 ] PHP Fatal error:  Trait "Spatie\LaravelPackageTools\Concerns\PackageServiceProvider\ProcessBladeComponents" not found in /DATA/inovasi5/inovasimasadepan/vendor/spatie/laravel-package-tools/src/PackageServiceProvider.php on line 21

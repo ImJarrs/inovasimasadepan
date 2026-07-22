@@ -16,15 +16,4 @@ class ExampleTest extends TestCase
 
         $response->assertStatus(200);
     }
-<<<<<<< HEAD
-
-    public function test_check_updates_endpoint_returns_latest_timestamp(): void
-    {
-        $response = $this->getJson('/check-updates');
-
-        $response->assertStatus(200)
-            ->assertJsonStructure(['updated_at', 'changed']);
-    }
-=======
->>>>>>> origin/main
 }
