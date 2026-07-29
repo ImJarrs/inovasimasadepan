@@ -20,6 +20,18 @@ class HomeController extends Controller
         return view('index', compact( 'homeBanner', 'promoBanner'));
     }
 
+    public function checkUpdates()
+    {
+        $latestBanner = Banner::orderBy('updated_at', 'desc')->value('updated_at');
+        $latestBlog = \App\Models\Blog::orderBy('updated_at', 'desc')->value('updated_at');
+
+        $latestUpdatedAt = max($latestBanner ?: now(), $latestBlog ?: now());
+
+        return response()->json([
+            'updated_at' => $latestUpdatedAt->toIso8601String(),
+            'changed' => true,
+        ]);
+    }
 
     public function send(Request $request)
     {
