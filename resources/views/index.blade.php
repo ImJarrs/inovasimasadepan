@@ -1,9 +1,10 @@
  @include('layouts.header')
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <header id="header" class="header d-flex align-items-center fixed-top">
   <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
       <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-lg-0">
-          <img src="{{ asset('assets/img/header-logo2.png') }}" alt="IMD">
+          <img src="{{ asset('assets/img/header-logo.webp') }}" alt="IMD">
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -45,35 +46,35 @@
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
           <div class="icon-box">
-            <img src="{{asset('assets/img/cpu.webp')}}" style="width: 64px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/cpu.webp')}}" style="width: 64px; margin-bottom: 15px;">
             <h3>Strong<br>Chipset<br>Durability</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
           <div class="icon-box">
-            <img src="{{asset('assets/img/thumb.webp')}}" style="width: 64px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/thumb.webp')}}" style="width: 64px; margin-bottom: 15px;">
             <h3>Excellent<br>Material<br>Quality</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
           <div class="icon-box">
-            <img src="{{asset('assets/img/warranty.webp')}}" style="width: 64px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/warranty.webp')}}" style="width: 64px; margin-bottom: 15px;">
             <h3>1 Year<br>Guarantee</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
           <div class="icon-box">
-            <img src="{{asset('assets/img/delivery.webp')}}" style="width: 70px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/delivery.webp')}}" style="width: 70px; margin-bottom: 15px;">
             <h3>Faster<br>Delivery</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
           <div class="icon-box">
-            <img src="{{asset('assets/img/custom.webp')}}" style="width: 60px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/custom.webp')}}" style="width: 60px; margin-bottom: 15px;">
             <h3>Custom Fit<br>Solutions</h3>
           </div>
         </div>
@@ -87,7 +88,7 @@
   <!-- About Section -->
   <section id="about" class="about section m-0">
     <div class="about-image" aria-hidden="true">
-      <img src="{{ asset('assets/img/about.png') }}" alt="">
+      <img src="{{ asset('assets/img/about.webp') }}" alt="">
     </div>
 
     <div class="container section-title col-lg-7" data-aos="fade-up">
@@ -140,7 +141,7 @@
       </div>
 
       <div class="vision-hero-image">
-        <img src="{{ asset('assets/img/visimisi.png') }}" alt="IMD technology vision">
+        <img src="{{ asset('assets/img/visimisi.webp') }}" alt="IMD technology vision">
       </div>
 
       <div class="vision-side-image">

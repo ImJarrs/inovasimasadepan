@@ -89,7 +89,7 @@
   
       <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-lg-0">
           <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="{{asset('assets/img/header-logo.webp')}}" alt="">
+          <img src="{{ asset('assets/img/header-logo.webp')}}" alt="">
           {{-- <h1 class="sitename">GP</h1>
           <span>.</span> --}}
       </a>

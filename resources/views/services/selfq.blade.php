@@ -1,7 +1,11 @@
 @include('layouts.header')
 
+@push('styles')
+    @vite('assets/css/selfq.css')
+@endpush
+
 <style>
-    @import url('{{ asset('assets/css/selfq.css') }}');
+    @import url('{{ asset('assets/css/splus.css') }}');
 </style>
 
 @php
@@ -205,7 +209,7 @@ Dispensing speed: ~1.0 sec
         </nav>
 
         <a class="logo-brand d-flex align-items-center me-auto me-lg-0">
-            <img src="{{ asset('assets/img/logo/selfqwhite.png') }}" alt="SELFQ LOGO">
+            <img src="{{ asset('assets/img/logo/selfqwhite.webp') }}" alt="SELFQ LOGO">
         </a>
     </div>
 </header>
@@ -230,7 +234,7 @@ Dispensing speed: ~1.0 sec
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
                     <div class="intro-panel">
                         <!--<div class="brand-logo-wrap">-->
-                        <!--    <img src="{{ asset('assets/img/logo/selfqblue.png') }}" alt="SELFQ logo">-->
+                        <!--    <img src="{{ asset('assets/img/logo/selfqblue.webp') }}" alt="SELFQ logo">-->
                         <!--</div>-->
 
                         <div class="brand-tagline">ENHANCING HOSPITALITY<br> THROUGH SELF-CHECK-IN KIOSK</div>
@@ -286,7 +290,7 @@ Dispensing speed: ~1.0 sec
             <div class="background row g-4 align-items-stretch">
                 <div class="col-lg-5 p-0" data-aos="fade-right" data-aos-delay="100">
                     <div class="visual-panel">
-                        <img src="{{ asset('assets/img/bg-selfq.png') }}" alt="SELFQ background visual">
+                        <img src="{{ asset('assets/img/bg-selfq.webp') }}" alt="SELFQ background visual">
                     </div>
                 </div>
 
@@ -319,7 +323,7 @@ Dispensing speed: ~1.0 sec
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
                     <div class="solution-panel">
                         <!--<span class="product-chip">-->
-                        <!--    <img src="{{ asset('assets/img/logo/selfqwhite.png') }}" alt="SELFQ" style="width: 82px; height: auto;">-->
+                        <!--    <img src="{{ asset('assets/img/logo/selfqwhite.webp') }}" alt="SELFQ" style="width: 82px; height: auto;">-->
                         <!--</span>-->
 
                         <div class="solution-copy">
@@ -335,7 +339,7 @@ Dispensing speed: ~1.0 sec
                             </p> --}}
                         </div>
                         <div class="brand-product-image">
-                            <img src="{{ asset('assets/img/selffkiosk.png') }}" alt="RECOM">
+                            <img src="{{ asset('assets/img/selffkiosk.webp') }}" alt="RECOM">
                         </div>
                     </div>
 

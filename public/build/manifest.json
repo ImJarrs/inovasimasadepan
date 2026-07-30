@@ -1,0 +1,98 @@
+{
+  "_vendor-CIyOE4HG.js": {
+    "file": "assets/vendor-CIyOE4HG.js",
+    "name": "vendor",
+    "css": [
+      "assets/vendor-DvB2Xm2x.css"
+    ]
+  },
+  "_vendor-DvB2Xm2x.css": {
+    "file": "assets/vendor-DvB2Xm2x.css",
+    "src": "_vendor-DvB2Xm2x.css"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BZGrhtJH.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/recom.css": {
+    "file": "assets/recom-DRbHtel2.css",
+    "src": "resources/css/recom.css",
+    "isEntry": true,
+    "name": "recom",
+    "names": [
+      "recom.css"
+    ]
+  },
+  "resources/css/selfq.css": {
+    "file": "assets/selfq-CGNUNkUG.css",
+    "src": "resources/css/selfq.css",
+    "isEntry": true,
+    "name": "selfq",
+    "names": [
+      "selfq.css"
+    ]
+  },
+  "resources/css/splus.css": {
+    "file": "assets/splus-BFNqDZ7u.css",
+    "src": "resources/css/splus.css",
+    "isEntry": true,
+    "name": "splus",
+    "names": [
+      "splus.css"
+    ]
+  },
+  "resources/img/about-us.webp": {
+    "file": "assets/about-us-DedpLKp1.webp",
+    "src": "resources/img/about-us.webp"
+  },
+  "resources/img/bg-footer.webp": {
+    "file": "assets/bg-footer-DoVjRQ1a.webp",
+    "src": "resources/img/bg-footer.webp"
+  },
+  "resources/img/bg-quotes.webp": {
+    "file": "assets/bg-quotes-D9-1Mee0.webp",
+    "src": "resources/img/bg-quotes.webp"
+  },
+  "resources/img/recom-banner-mobile.webp": {
+    "file": "assets/recom-banner-mobile-Dwv4ifhs.webp",
+    "src": "resources/img/recom-banner-mobile.webp"
+  },
+  "resources/img/recom-banner.webp": {
+    "file": "assets/recom-banner-C5rDcuaF.webp",
+    "src": "resources/img/recom-banner.webp"
+  },
+  "resources/img/selfq-banner-mobile.webp": {
+    "file": "assets/selfq-banner-mobile-CM1FKZOq.webp",
+    "src": "resources/img/selfq-banner-mobile.webp"
+  },
+  "resources/img/selfq-banner.webp": {
+    "file": "assets/selfq-banner-YtRrcwRt.webp",
+    "src": "resources/img/selfq-banner.webp"
+  },
+  "resources/img/splus-banner-mobile.webp": {
+    "file": "assets/splus-banner-mobile-DTBMK378.webp",
+    "src": "resources/img/splus-banner-mobile.webp"
+  },
+  "resources/img/splus-banner.webp": {
+    "file": "assets/splus-banner-6A-4vF3E.webp",
+    "src": "resources/img/splus-banner.webp"
+  },
+  "resources/img/visi-mobile.webp": {
+    "file": "assets/visi-mobile-HrCRbqdR.webp",
+    "src": "resources/img/visi-mobile.webp"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BcGxXq9v.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-CIyOE4HG.js"
+    ]
+  }
+}

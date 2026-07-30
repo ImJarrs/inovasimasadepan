@@ -1,10 +1,9 @@
 </main>
 
 <footer id="footer" class="footer dark-background">
+
   <div class="footer-top">
     <div class="container">
-
-
       <!-- Address and Contact Wrapper -->
       
       <div class="col-lg-12 d-flex flex-wrap footer-info">
@@ -20,9 +19,6 @@
                 or get expert support on our innovative technology solutions across Indonesia.
               </p>
             </div>
-            {{-- <div class="image d-flex align-items-center">
-              <img src="{{ asset('assets/img/header-logo2.png')}}" alt="">
-            </div> --}}
         </div>
 
         <div class="footer-content-contact col-lg-4">
@@ -117,7 +113,8 @@
 <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js')}}"></script>
 
 <!-- Main JS File -->
-<script src="{{ asset('assets/js/main.js')}}"></script>
+@vite('resources/js/app.js')
+{{-- <script src="{{ asset('assets/js/main.js')}}"></script> --}}
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const scrollDownButton = document.getElementById("scroll-down");
@@ -211,7 +208,7 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        document.querySelector("trix-toolbar [data-trix-button-group='file-tools']").remove();
+        document.querySelector("trix-toolbar [data-trix-button-group='file-tools']")?.remove();
     });
 </script>
 

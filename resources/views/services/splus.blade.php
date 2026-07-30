@@ -131,7 +131,7 @@
         </nav>
 
         <a class="logo-brand d-flex align-items-center me-auto me-lg-0">
-            <img src="{{ asset('assets/img/logo/splus-white.png') }}" alt="SPLUS LOGO">
+            <img src="{{ asset('assets/img/logo/splus-white.webp') }}" alt="SPLUS LOGO">
         </a>
     </div>
 </header>
@@ -156,7 +156,7 @@
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
                     <div class="intro-panel">
                         <!--<div class="brand-logo-wrap">-->
-                        <!--    <img src="{{ asset('assets/img/logo/splus-black.png') }}" alt="SPLUS logo">-->
+                        <!--    <img src="{{ asset('assets/img/logo/splus-black.webp') }}" alt="SPLUS logo">-->
                         <!--</div>-->
 
                         <div class="brand-tagline">HOSPITALITY SECURITY AND ACCESS<br> SOLUTIONS</div>
@@ -211,7 +211,7 @@
             <div class="background row g-3 align-items-stretch">
                 <div class="col-lg-5 p-0" data-aos="fade-right" data-aos-delay="100">
                     <div class="visual-panel">
-                        <img src="{{ asset('assets/img/splus-bg.png') }}" alt="SPLUS background visual">
+                        <img src="{{ asset('assets/img/splus-bg.webp') }}" alt="SPLUS background visual">
                     </div>
                 </div>
 
@@ -244,7 +244,7 @@
                 <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
                     <div class="solution-panel">
                         <!--<span class="product-chip">-->
-                        <!--    <img src="{{ asset('assets/img/logo/splus-white.png') }}" alt="SPLUS" style="width: 82px; height: auto;">-->
+                        <!--    <img src="{{ asset('assets/img/logo/splus-white.webp') }}" alt="SPLUS" style="width: 82px; height: auto;">-->
                         <!--</span>-->
 
                         <div class="solution-copy">
@@ -256,7 +256,7 @@
                             </p>
                         </div>
                         <div class="brand-product-image">
-                            <img src="{{ asset('assets/img/slocks.png') }}" alt="SPLUS access ecosystem">
+                            <img src="{{ asset('assets/img/slocks.webp') }}" alt="SPLUS access ecosystem">
                         </div>
                     </div>
                 </div>

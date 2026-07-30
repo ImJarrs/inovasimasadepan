@@ -467,13 +467,28 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  /* color: var(--default-color); */
-  background: url("../img/bg-footer.png") rgba(0, 0, 0, 0.03) center/cover ;
-  /* color: #00000042; */
-  font-size: 14px;
   position: relative;
   width: 100%;
-  display: block;
+  overflow: hidden; /* Mencegah gambar keluar dari pembungkus */
+  font-size: 14px;
+}
+
+/* Membuat tag <img> berperilaku persis seperti background-image */
+.footer .footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 2; /* Posisi di paling belakang */
+}
+
+/* Memastikan isi teks/konten berada di atas gambar background */
+.footer .footer-content {
+  position: relative;
+  z-index: 3; /* Posisi di atas gambar */
 }
 
 .footer .container {
@@ -686,7 +701,7 @@ h6 {
   }
   .footer {
     padding: 0;
-    /* background: url(../img/bg-footer-right.png) round; */
+    /* background: url(../img/bg-footer-right.webp) round; */
   }
 
   .footer .container {
@@ -1838,7 +1853,7 @@ section,
 @media (max-width: 575px) {
   .vision .vision-hero-image {
     height: 200px;
-    background-image: url("../img/visi-mobile.png");
+    background-image: url("../img/visi-mobile.webp");
     object-position: right;
     background-position: right;
   }
@@ -3097,7 +3112,7 @@ section,
 # Quote Section
 --------------------------------------------------------------*/
 .quote {
-  background-image: url('../img/bg-quotes.jpg');
+  background-image: url('../img/bg-quotes.webp');
   background-size: cover;
   height: 200px;
   align-items: center;

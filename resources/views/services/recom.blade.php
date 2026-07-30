@@ -1,5 +1,10 @@
 @include('layouts.header')
 
+<style>
+    @import url('{{ asset('assets/css/recom.css') }}');
+</style>
+
+
 @php
     $introPoints = [
         [
@@ -67,49 +72,45 @@
 
     $benefits = [
         [
-            'image' => 'reduce-cost.png',
+            'image' => 'reduce-cost.webp',
             'alt' => 'Reduce cost icon',
             'recolor' => true,
             'title' => 'Minimize Cost of Losses',
         ],
         [
-            'image' => 'rapid.png',
+            'image' => 'rapid.webp',
             'alt' => 'Rapid counting icon',
             'recolor' => true,
             'title' => 'Time Efficiency by Faster & Reliable Counting',
         ],
         [
-            'image' => 'disaster-recovery.png',
+            'image' => 'disaster-recovery.webp',
             'alt' => 'Material handling icon',
             'recolor' => 'true',
             'title' => 'Washing Cycle Data Per Unit',
         ],
         [
-            'image' => 'evaluation.png',
+            'image' => 'evaluation.webp',
             'alt' => 'Evaluation icon',
             'title' => 'Objective Evaluation for Supplier',
         ],
         [
-            'image' => 'financial.png',
+            'image' => 'financial.webp',
             'alt' => 'Financial icon',
             'title' => 'Higher Service Charge',
         ],
         [
-            'image' => 'material-handling.png',
+            'image' => 'material-handling.webp',
             'alt' => 'Decision making icon',
             'title' => 'Real Time Tracking',
         ],
         [
-            'image' => 'decision-making.png',
+            'image' => 'decision-making.webp',
             'alt' => 'Disaster recovery icon',
             'title' => 'Better Decision Making Process',
         ]
     ];
 @endphp
-
-<style>
-    @import url('{{ asset('assets/css/recom.css') }}');
-</style>
 
 <header id="header" class="header-blog d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -211,7 +212,7 @@
             <div class="background row g-4 align-items-stretch">
                 <div class="col-lg-5 p-0" data-aos="fade-right" data-aos-delay="100">
                     <div class="visual-panel">
-                        <img src="{{ asset('assets/img/bg-recomlinen.png') }}" alt="RECOM background visual">
+                        <img src="{{ asset('assets/img/bg-recomlinen.webp') }}" alt="RECOM background visual">
                     </div>
                 </div>
 
@@ -257,7 +258,7 @@
                             </p>
                         </div>
                         <div class="brand-product-image">
-                            <img src="{{ asset('assets/img/fams.png') }}" alt="RECOM">
+                            <img src="{{ asset('assets/img/fams.webp') }}" alt="RECOM">
                         </div>
                     </div>
                 </div>
@@ -296,7 +297,7 @@
                             </p>
                         </div>
                         <div class="brand-product-image">
-                            <img src="{{ asset('assets/img/slrt.png') }}" alt="RECOM">
+                            <img src="{{ asset('assets/img/slrt.webp') }}" alt="RECOM">
                         </div>
                     </div>
                 </div>
@@ -343,7 +344,7 @@
 
                 <div class="visual col-lg-5" data-aos="fade-left" data-aos-delay="140">
                     <div class="benefit-visual">
-                        <img src="{{ asset('assets/img/recom-fams.png') }}" alt="">
+                        <img src="{{ asset('assets/img/recom-fams.webp') }}" alt="">
                         {{-- <div class="badge">
                             <strong>Result-oriented view</strong>
                             <div class="small">Simple UI, stronger control, clearer decisions.</div>

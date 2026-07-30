@@ -42,11 +42,11 @@
     };
 
     $staticSlides = [
-        ['src' => 'assets/img/card/card (1).png'],
-        ['src' => 'assets/img/card/card (2).png'],
-        ['src' => 'assets/img/card/card (3).png'],
-        ['src' => 'assets/img/card/card (4).png'],
-        ['src' => 'assets/img/card/card (5).png']
+        ['src' => 'assets/img/card/card (1).webp'],
+        ['src' => 'assets/img/card/card (2).webp'],
+        ['src' => 'assets/img/card/card (3).webp'],
+        ['src' => 'assets/img/card/card (4).webp'],
+        ['src' => 'assets/img/card/card (5).webp']
     ];
 
     $staticAdvantages = [
@@ -88,8 +88,9 @@
 
 <section class="rfid-showcase">
   <div class="rfid-showcase-hero">
-    <img src="{{ asset('assets/img/rfid-bg1.png') }}" alt="RFID" class="rfid-showcase-hero__image">
+    <img src="{{ asset('assets/img/rfid-bg1.webp') }}" alt="RFID" class="rfid-showcase-hero__image" fetchpriority="high" decoding="async">
     <div class="container rfid-showcase-hero__content">
+      <link rel="preload" as="image" href="{{ asset('assets/img/hero-bg.webp') }}" fetchpriority="high">
       <h1>RFID</h1>
       {{-- <span>Material series, feature breakdown, and product-ready content for admin managed pages.</span> --}}
     </div>

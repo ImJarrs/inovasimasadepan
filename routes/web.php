@@ -9,7 +9,6 @@ use App\Http\Controllers\SendEmailController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductShowcaseController;
-use App\Http\Controllers\FunnelController;
 use Illuminate\Support\Facades\Route;
 
 // HOME
@@ -61,21 +60,6 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/admin', [AdminController::class, 'admin'])->name('admin');
 
-    // ADMIN CARD
-    Route::get('/admin/rfid-card', [ProductController::class, 'adminCard'])->name('admin.card');
-    Route::get('/admin/rfid-card/create', [ProductController::class, 'createCard'])->name('admin.card.create');
-    Route::post('/admin/rfid-card/store', [ProductController::class, 'storeCard'])->name('admin.card.store');
-    Route::get('/admin/rfid-card/{id}/edit', [ProductController::class, 'editCard'])->name('admin.card.edit');
-    Route::put('/admin/rfid-card/{id}/update', [ProductController::class, 'updateCard'])->name('admin.card.update');
-    Route::delete('/admin/rfid-card/{id}', [ProductController::class, 'destroyCard'])->name('admin.card.destroy');
-
-    // ADMIN WRISTBAND
-    Route::get('/admin/rfid-wristband', [ProductController::class, 'adminWristband'])->name('admin.wristband');
-    Route::get('/admin/rfid-wristband/create', [ProductController::class, 'createWristband'])->name('admin.wristband.create');
-    Route::post('/admin/rfid-wristband/store', [ProductController::class, 'storeWristband'])->name('admin.wristband.store');
-    Route::get('/admin/rfid-wristband/{id}/edit', [ProductController::class, 'editWristband'])->name('admin.wristband.edit');
-    Route::put('/admin/rfid-wristband/{id}/update', [ProductController::class, 'updateWristband'])->name('admin.wristband.update');
-    Route::delete('/admin/rfid-wristband/{id}', [ProductController::class, 'destroyWristband'])->name('admin.wristband.destroy');
     
     // ADMIN BANNER
     Route::get('/admin/banner', [BannerController::class, 'adminBanner'])->name('admin.banner');
@@ -102,19 +86,3 @@ Route::middleware('auth')->group(function () {
     Route::delete('/admin/product-showcase/{product_showcase}', [ProductShowcaseController::class, 'destroy'])->name('admin.product.showcase.destroy');
 });
 
-// FUNNEL PAGE
-Route::get('/funnel/rfid/{lang}', [FunnelController::class, 'showCard'])->name('funnel.card');
-
-Route::get('/funnel/kiosk/{lang}', [FunnelController::class, 'showKiosk'])->name('funnel.kiosk');
-
-Route::get('/funnel/asset-tracking', function () {
-	return view ('funnel.id.ast', [
-		'title' => 'IMD - Asset Tracking Service',
-	]);
-});
-
-Route::get('/funnel/approval-tracking', function () {
-	return view ('funnel.id.apt', [
-		'title' => 'IMD - Approval Tracking Service',
-	]);
-});

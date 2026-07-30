@@ -6,7 +6,6 @@
     <h4>
       Ready to begin?
     </h4>
-    {{-- <a href="https://api.whatsapp.com/send?phone=6281806338869"><i class="bi bi-whatsapp"></i> +6281806338869</a> &emsp; --}}
-    {{--<a href="https://api.whatsapp.com/send?phone=6282122787878"><i class="bi bi-whatsapp"></i> +6282122787878</a> --}}
+    {{-- <a href="https://api.whatsapp.com/send?phone=6281806338869"><i class="bi bi-whatsapp"></i> +6281806338869</a> --}}
   </div>
 </section>
