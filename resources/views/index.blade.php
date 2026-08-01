@@ -288,6 +288,42 @@
   </section>
 
 
+  <!-- Partners Section -->
+  <section id="partners" class="partners section light-background">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Our Partners</h2>
+      <p>Trusted by hospitality and business partners across Indonesia.</p>
+    </div>
+
+    @php
+      $partnerLogos = [
+        ['src' => 'assets/img/partner/dafam.webp', 'alt' => 'Dafam'],
+        ['src' => 'assets/img/partner/kyriad.webp', 'alt' => 'Kyriad'],
+        ['src' => 'assets/img/partner/rooms.webp', 'alt' => 'Rooms Inc'],
+        ['src' => 'assets/img/partner/Artotel Suites.webp', 'alt' => 'Artotel Suites'],
+        ['src' => 'assets/img/partner/Artotel Casa.webp', 'alt' => 'Artotel Casa'],
+        ['src' => 'assets/img/partner/allniteday.webp', 'alt' => 'All Nite & Day'],
+        ['src' => 'assets/img/partner/marc.webp', 'alt' => 'Marc Hotel'],
+        ['src' => 'assets/img/partner/Artotel.webp', 'alt' => 'Artotel'],
+      ];
+    @endphp
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="partner-slider" aria-label="Partner logo slider">
+        @foreach (array_chunk($partnerLogos, 4) as $rowIndex => $partnerRow)
+          <div class="partner-track {{ $rowIndex % 2 ? 'partner-track-reverse' : '' }}">
+            @foreach (array_merge($partnerRow, $partnerRow, $partnerRow) as $partner)
+              <div class="partner-logo-card">
+                <img src="{{ asset($partner['src']) }}" alt="{{ $partner['alt'] }} logo" loading="lazy">
+              </div>
+            @endforeach
+          </div>
+        @endforeach
+      </div>
+    </div>
+  </section>
+
+
   <!-- Contact Section -->
   <section id="contact" class="contact section">
 
