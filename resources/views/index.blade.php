@@ -288,6 +288,13 @@
   </section>
 
 
+
+  <!-- Par/ner Section -->
+  <section id="partner" class="partner section"> 
+    
+  </section>
+
+
   <!-- Contact Section -->
   <section id="contact" class="contact section">
 
