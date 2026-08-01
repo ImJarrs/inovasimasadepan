@@ -29,7 +29,7 @@
     ]
   },
   "resources/css/selfq.css": {
-    "file": "assets/selfq-CGNUNkUG.css",
+    "file": "assets/selfq-B3weK3Ce.css",
     "src": "resources/css/selfq.css",
     "isEntry": true,
     "name": "selfq",
@@ -49,6 +49,10 @@
   "resources/img/about-us.webp": {
     "file": "assets/about-us-DedpLKp1.webp",
     "src": "resources/img/about-us.webp"
+  },
+  "resources/img/benefitsp/benefit-selfq.webp": {
+    "file": "assets/benefit-selfq-Dg_vvq_2.webp",
+    "src": "resources/img/benefitsp/benefit-selfq.webp"
   },
   "resources/img/bg-footer.webp": {
     "file": "assets/bg-footer-DoVjRQ1a.webp",
