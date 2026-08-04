@@ -1,4 +1,4 @@
-    .header-blog {
+    .header-contrast {
         --heading-color: #ffffff;
         --contrast-color: #ffffff;
         color: var(--default-color);
@@ -10,21 +10,21 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     }
 
-    .header-blog .logo {
+    .header-contrast .logo {
         line-height: 1;
     }
 
-    .header-blog .logo img {
+    .header-contrast .logo img {
         max-height: 50px;
         margin-right: 5px;
     }
 
-    .header-blog .logo-brand img {
+    .header-contrast .logo-brand img {
         max-height: 40px;
     }
 
-    .header-blog .btn-getstarted,
-    .header-blog .btn-getstarted:focus {
+    .header-contrast .btn-getstarted,
+    .header-contrast .btn-getstarted:focus {
         color: #ffffff;
         font-size: 14px;
         padding: 8px 28px;
@@ -36,42 +36,42 @@
         box-shadow: 0 14px 30px rgba(227, 24, 24, 0.24);
     }
 
-    .header-blog .btn-getstarted:hover,
-    .header-blog .btn-getstarted:focus:hover {
+    .header-contrast .btn-getstarted:hover,
+    .header-contrast .btn-getstarted:focus:hover {
         color: #ffffff;
         transform: translateY(-1px);
         box-shadow: 0 18px 36px rgba(227, 24, 24, 0.3);
     }
 
     @media (max-width: 1200px) {
-        .header-blog .logo {
+        .header-contrast .logo {
             order: 1;
         }
 
-        .header-blog .btn-getstarted {
+        .header-contrast .btn-getstarted {
             order: 2;
             margin: 0 15px 0 0;
             padding: 6px 16px;
         }
 
-        .header-blog .navmenu {
+        .header-contrast .navmenu {
             order: 3;
         }
-        .header-blog .logo-brand {
+        .header-contrast .logo-brand {
             position: absolute;
             right: 20%;
     }
 }
 
-    .scrolled .header-blog {
+    .scrolled .header-contrast {
         box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
     }
 
-    .index-page .header-blog {
+    .index-page .header-contrast {
         --background-color: rgba(0, 0, 0, 0);
     }
 
-    .index-page.scrolled .header-blog {
+    .index-page.scrolled .header-contrast {
         --background-color: rgba(0, 0, 0, 0.82);
     }
 
@@ -901,11 +901,11 @@
     }
 
     @media (max-width: 575.98px) {
-        .header-blog .logo-brand img {
+        .header-contrast .logo-brand img {
             height: 35px;
         }
         
-        .header-blog .logo img {
+        .header-contrast .logo img {
             height: 45px;    
         }
         

@@ -42,39 +42,39 @@
         </div>
       </div>
 
-      <div class="row gy-4 mt-5 justify-content-center">
+      <div class="icon-point gy-4 mt-5 justify-content-center">
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
           <div class="icon-box">
-            <img src="{{ asset('assets/img/cpu.webp')}}" style="width: 64px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/cpu.webp')}}">
             <h3>Strong<br>Chipset<br>Durability</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
           <div class="icon-box">
-            <img src="{{ asset('assets/img/thumb.webp')}}" style="width: 64px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/thumb.webp')}}">
             <h3>Excellent<br>Material<br>Quality</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
           <div class="icon-box">
-            <img src="{{ asset('assets/img/warranty.webp')}}" style="width: 64px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/warranty.webp')}}">
             <h3>1 Year<br>Guarantee</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
           <div class="icon-box">
-            <img src="{{ asset('assets/img/delivery.webp')}}" style="width: 70px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/delivery.webp')}}">
             <h3>Faster<br>Delivery</h3>
           </div>
         </div>
 
         <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
           <div class="icon-box">
-            <img src="{{ asset('assets/img/custom.webp')}}" style="width: 60px; margin-bottom: 15px;">
+            <img src="{{ asset('assets/img/custom.webp')}}">
             <h3>Custom Fit<br>Solutions</h3>
           </div>
         </div>
@@ -83,55 +83,10 @@
 
     </div>
 
-  </section><!-- /Hero Section -->
-
-  <!-- About Section -->
-  <section id="about" class="about section m-0">
-    <div class="about-image" aria-hidden="true">
-      <img src="{{ asset('assets/img/about.webp') }}" alt="">
-    </div>
-
-    <div class="container section-title col-lg-7" data-aos="fade-up">
-      <h2 class="col-lg-6">About Us</h2>
-    </div>
-
-    <div class="container pb-0 pt-0" data-aos="fade-up" data-aos-delay="100">
-      <div class="row gy-4 align-items-center">
-        <div class=" order-1 order-lg-1 content m-0 pb-0">
-          <p class="about-imd">
-              <b>PT Inovasi Masa Depan</b> is dedicated to delivering innovative RFID and NFC solutions that
-                  enable modern businesses to operate smarter, faster, and more efficiently. Our journey
-                  began with Hotel RFID Cards, a solution widely trusted by prominent hotel groups
-                  throughout Indonesia for its superior craftsmanship, durability, and sophisticated aesthetic.
-                  Our cards are produced in a variety of materials, from premium PVC and metal to wooden
-                  and eco-friendly options, each tailored to align with the unique branding and operational
-                  requirements of our clients.
-          </p>
-          <p class="end col-lg-7">
-            <b>PT Inovasi Masa Depan</b> continues to broaden its technological ecosystem through forward thinking innovations. We proudly introducе, <br>
-            <table class="col-lg-7">
-              <tr>
-                <td class="about-dot-cell"><span class="about-dot"></span></td>
-                <td><b>&thinsp;SPLUS:</b> a Smart Electronic Keylock System designed for modern hospitality, merging robust security with contemporary design.</td>
-              </tr>
-              <tr>
-                <td class="about-dot-cell"><span class="about-dot"></span></td>
-                <td><b>&thinsp;SELFQ:</b> a modern Self Check-In Kiosk that accelerates guest services while enhancing convenience.</td>
-              </tr>
-              <tr>
-                <td class="about-dot-cell"><span class="about-dot"></span></td>
-                <td><b>&thinsp;RECOM:</b> a digital Asset Management platform that simplifies asset monitoring and control for diverse industries.</td>
-              </tr>
-            </table>
-            <p class="col-lg-7">
-              Guided by a vision of continuous progress, we remain committed to creating dependable,
-              future-ready technologies that redefine operational efficiency across industries. <br>
-            </p>
-          </p>
-        </div>
-      </div>
-    </div>
   </section>
+  <!-- /Hero Section -->
+
+  @include('components.about')
 
   <section id="vision" class="vision section">
     <div class="container vision-layout">
@@ -141,7 +96,7 @@
       </div>
 
       <div class="vision-hero-image">
-        <img src="{{ asset('assets/img/visimisi.webp') }}" alt="IMD technology vision">
+        <img src="{{ asset('assets/img/slocks/4.png') }}" alt="IMD technology vision">
       </div>
 
       <div class="vision-side-image">
@@ -188,141 +143,106 @@
     </div>
   </section><!-- End Vision Section -->
 
-<section id="benefit" class="benefit section">
-  <!-- Section Title -->
+  {{-- @include('components.benefit') --}}
+  <section id="benefit" class="benefit section">
     <div class="container section-title" data-aos="fade-up">
-      <h2>Why Choose Us?</h2>
+        <h2>Why Choose Us?</h2>
     </div><!-- End Section Title -->
 
     <div class="container">
-      <!-- justify-content-center membuat item ganjil di akhir otomatis ke tengah -->
-      <div class="row g-4 g-lg-5 justify-content-center">
-        
-        <!-- Item 1 -->
-        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
-          <div class="benefit-item d-flex align-items-start">
-            <div class="benefit-icon">
-              <i class="bi bi-person-workspace"></i>
+    <!-- justify-content-center membuat item ganjil di akhir otomatis ke tengah -->
+        <div class="row g-4 g-lg-5 justify-content-center">
+            
+            <!-- Item 1 -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="benefit-item d-flex align-items-start">
+                    <div class="benefit-icon">
+                        <i class="bi bi-person-workspace"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Proven Experience & Trusted by Leading Brands</h3>
+                        <p>
+                            Trusted by leading hotels, hospitality groups, and organizations across
+                            Indonesia as a reliable provider of RFID solutions and operational
+                            technology systems.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="benefit-content">
-              <h3>Proven Experience & Trusted by Leading Brands</h3>
-              <p>
-                Trusted by leading hotels, hospitality groups, and organizations across
-                Indonesia as a reliable provider of RFID solutions and operational
-                technology systems.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Item 2 -->
-        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-          <div class="benefit-item d-flex align-items-start">
-            <div class="benefit-icon">
-              <i class="bi bi-briefcase"></i>
+            <!-- Item 2 -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="benefit-item d-flex align-items-start">
+                    <div class="benefit-icon">
+                        <i class="bi bi-briefcase"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Innovative & Future-Ready Solutions</h3>
+                        <p>
+                            We continuously deliver innovative technologies, including RFID/NFC
+                            Cards, Asset Management Systems, Self Check-In Kiosks, and Smart
+                            Electronic Lock Solutions to support business transformation.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="benefit-content">
-              <h3>Innovative & Future-Ready Solutions</h3>
-              <p>
-                We continuously deliver innovative technologies, including RFID/NFC
-                Cards, Asset Management Systems, Self Check-In Kiosks, and Smart
-                Electronic Lock Solutions to support business transformation.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Item 3 -->
-        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-          <div class="benefit-item d-flex align-items-start">
-            <div class="benefit-icon">
-              <i class="bi bi-cpu"></i>
+            <!-- Item 3 -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="benefit-item d-flex align-items-start">
+                    <div class="benefit-icon">
+                        <i class="bi bi-cpu"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Customized to Your Business Needs</h3>
+                        <p>
+                            Every business has unique requirements. Our products and solutions are
+                            designed to be flexible and customizable to align with your branding,
+                            operational processes, and business objectives.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="benefit-content">
-              <h3>Customized to Your Business Needs</h3>
-              <p>
-                Every business has unique requirements. Our products and solutions are
-                designed to be flexible and customizable to align with your branding,
-                operational processes, and business objectives.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Item 4 -->
-        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-          <div class="benefit-item d-flex align-items-start">
-            <div class="benefit-icon">
-              <i class="bi bi-lightbulb"></i>
+            <!-- Item 4 -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="benefit-item d-flex align-items-start">
+                    <div class="benefit-icon">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+                    <div class="benefit-content">
+                        <h3>Quality, Durable & Reliable Products</h3>
+                        <p>
+                            We are committed to providing high-quality products built with durable
+                            materials and reliable performance, ensuring long-term value and
+                            minimal operational disruption.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="benefit-content">
-              <h3>Quality, Durable & Reliable Products</h3>
-              <p>
-                We are committed to providing high-quality products built with durable
-                materials and reliable performance, ensuring long-term value and
-                minimal operational disruption.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Item 5 (Otomatis di tengah karena justify-content-center pada row) -->
-        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-          <div class="benefit-item d-flex align-items-start">
-            <div class="benefit-icon icon-247">
-              <div class="dial-247">24/7</div>
+            <!-- Item 5 (Otomatis di tengah karena justify-content-center pada row) -->
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="benefit-item d-flex align-items-start">
+                    <div class="benefit-icon icon-247">
+                      <div class="dial-247">24/7</div>
+                    </div>
+                    <div class="benefit-content">
+                      <h3>Professional Support & Long-Term Partnership</h3>
+                      <p>
+                          We do more than supply products-we build lasting partnerships
+                          through professional consultation, seamless implementation, technical
+                          support, and dedicated after-sales service.
+                      </p>
+                    </div>
+                </div>
             </div>
-            <div class="benefit-content">
-              <h3>Professional Support & Long-Term Partnership</h3>
-              <p>
-                We do more than supply products-we build lasting partnerships
-                through professional consultation, seamless implementation, technical
-                support, and dedicated after-sales service.
-              </p>
-            </div>
-          </div>
-        </div>
 
-      </div>
+        </div>
     </div>
-  </section>
+</section>
 
-
-  <!-- Partners Section -->
-  <section id="partners" class="partners section light-background">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Our Partners</h2>
-      <p>Trusted by hospitality and business partners across Indonesia.</p>
-    </div>
-
-    @php
-      $partnerLogos = [
-        ['src' => 'assets/img/partner/dafam.webp', 'alt' => 'Dafam'],
-        ['src' => 'assets/img/partner/kyriad.webp', 'alt' => 'Kyriad'],
-        ['src' => 'assets/img/partner/rooms.webp', 'alt' => 'Rooms Inc'],
-        ['src' => 'assets/img/partner/Artotel Suites.webp', 'alt' => 'Artotel Suites'],
-        ['src' => 'assets/img/partner/Artotel Casa.webp', 'alt' => 'Artotel Casa'],
-        ['src' => 'assets/img/partner/allniteday.webp', 'alt' => 'All Nite & Day'],
-        ['src' => 'assets/img/partner/marc.webp', 'alt' => 'Marc Hotel'],
-        ['src' => 'assets/img/partner/Artotel.webp', 'alt' => 'Artotel'],
-      ];
-    @endphp
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="partner-slider" aria-label="Partner logo slider">
-        @foreach (array_chunk($partnerLogos, 4) as $rowIndex => $partnerRow)
-          <div class="partner-track {{ $rowIndex % 2 ? 'partner-track-reverse' : '' }}">
-            @foreach (array_merge($partnerRow, $partnerRow, $partnerRow) as $partner)
-              <div class="partner-logo-card">
-                <img src="{{ asset($partner['src']) }}" alt="{{ $partner['alt'] }} logo" loading="lazy">
-              </div>
-            @endforeach
-          </div>
-        @endforeach
-      </div>
-    </div>
-  </section>
-
+  @include('components.partner')
 
   <!-- Contact Section -->
   <section id="contact" class="contact section">

@@ -467,32 +467,18 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  position: relative;
-  width: 100%;
-  overflow: hidden; /* Mencegah gambar keluar dari pembungkus */
+  /* color: var(--default-color); */
+  background: url("../img/bg-footer.webp") rgba(0, 0, 0, 0.03) center/cover ;
+  /* color: #00000042; */
   font-size: 14px;
-}
-
-/* Membuat tag <img> berperilaku persis seperti background-image */
-.footer .footer-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  z-index: 2; /* Posisi di paling belakang */
-}
-
-/* Memastikan isi teks/konten berada di atas gambar background */
-.footer .footer-content {
   position: relative;
-  z-index: 3; /* Posisi di atas gambar */
+  width: 100%;
+  display: block;
 }
 
 .footer .container {
-  max-width: 1100px;
+  max-width: 1200px;
+  padding: 0;
 }
 
 .footer .footer-top {
@@ -572,7 +558,7 @@ h6 {
 }
 
 .footer .footer-about {
-  padding: 0 50px 0 0;
+  padding: 0 50px;
   border-right: #0000005f 2px solid;
 }
 
@@ -640,22 +626,23 @@ h6 {
     align-items: flex-start; /* Sesuaikan dengan kebutuhan */
   }
 
-  .footer-about {
-    flex: 1; /* Ukuran proporsional untuk logo */
-  }
-
   .footer-info {
     display: flex;
     flex: 2; /* Ukuran proporsional untuk Address dan Contact */
-    justify-content: space-between; /* Spasi antara address dan contact */
+    justify-content: space-between; 
   }
 
-  .footer-address, .footer-contact {
-    flex: 1; /* Bagian Address dan Contact proporsional */
+  .footer .footer-about {
+    margin: 0 50px;
+    padding: 0;
+    border-bottom: black double 1px;
+    border-right: none;
   }
   
-  .footer .footer-content-socmed {
-    padding: 0 25px;
+  .footer .footer-content-socmed,
+  .footer .footer-content-contact {
+    padding: 25px 50px 0;
+    border-right: none;
   }
 }
 
@@ -667,31 +654,17 @@ h6 {
 }
 
 /* Style Mobile */
-@media (max-width: 992px) {
-  .footer-top .row {
-    flex-direction: column; /* Elemen menjadi kolom */
-    align-items: left; /* Elemen rata tengah */
+@media (max-width: 723px) {
+  .footer .footer-info {
+    gap: 15px;
   }
-
-  .footer .footer-about .logo img {
-    max-height: 50px;
-    padding-top: 5px;
+  .footer .footer-about {
+    margin: 0 20px;
   }
-
-  .footer-info {
-    flex-direction: column; /* Address dan Contact berada di bawah logo */
-    gap: 20px;
-    align-items: left; /* Rata tengah */
-  }
-
-  .footer-address, .footer-contact{
-    text-align: left; /* Teks rata tengah */
-    width: 100%;
-  }
-
-  .footer-contact table td{
-    overflow: auto;
-    font-size: 15px;
+  .footer .footer-content-socmed,
+  .footer .footer-content-contact {
+    padding: 0 20px;
+    border-right: none;
   }
 }
 
@@ -701,24 +674,9 @@ h6 {
   }
   .footer {
     padding: 0;
-    /* background: url(../img/bg-footer-right.webp) round; */
   }
 
   .footer .container {
-    padding: 0 15px;
-  }
-
-  .footer .footer-about {
-    border-right: none;
-    padding: 0 15px;
-  }
-
-  .footer .footer-content-contact {
-    border-right: none;
-    padding: 0 15px;
-  }
-
-  .footer .footer-content-socmed {
     padding: 0 15px;
   }
 
@@ -1853,7 +1811,7 @@ section,
 @media (max-width: 575px) {
   .vision .vision-hero-image {
     height: 200px;
-    background-image: url("../img/visi-mobile.webp");
+    background-image: url("../img/slocks/6.png");
     object-position: right;
     background-position: right;
   }
@@ -3152,12 +3110,61 @@ section,
 /*--------------------------------------------------------------
 # Blog Section
 --------------------------------------------------------------*/
+.blog .content {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 250px) 1fr;
+  align-items: center;
+  padding: 1rem;
+}
+
+.blog .card {
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog .content-image {
+  border-radius: 5px 0 0 5px;
+}
+
+.blog .content-image img{
+  max-width: 250px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
+}
+
+.blog .content-text h5 {
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.blog .btn-read {
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.blog .text-clamp {
+  display: -webkit-box; /* Membuat container fleksibel */
+  -webkit-line-clamp: 3; /* Batasi ke 2 baris */
+  -webkit-box-orient: vertical; /* Orientasi vertikal */
+  overflow: hidden; /* Sembunyikan teks yang kelebihan */
+  text-overflow: ellipsis; /* Tambahkan "..." di akhir */
+}
+
 .blog-details {
   padding-bottom: 30px;
 }
 
 .trix-toolbar [data-trix-button-group="file-tools"] {
     display: none;
+}
+
+@media (max-width: 768px) {
+  .blog-details .content {
+      padding: 5% 15px;
+  }
 }
 
 @media (max-width: 500px){
@@ -3538,4 +3545,131 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+/*--------------------------------------------------------------
+# Partners Section
+--------------------------------------------------------------*/
+.partners {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+
+.partners .section-title p {
+  margin: 10px auto 0;
+  max-width: 620px;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  font-weight: 500;
+}
+
+.partner-slider {
+  display: grid;
+  gap: 0;
+  padding: 12px 0 6px;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 9%, #000 91%, transparent);
+}
+
+.partner-track {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  animation: partner-slide 45s linear infinite;
+}
+
+.partner-track-reverse {
+  animation-direction: reverse;
+  animation-duration: 45s;
+}
+
+.partner-slider:hover .partner-track {
+  animation-play-state: paused;
+}
+
+.partner-logo-card {
+  max-width: 250px;
+  width: auto;
+  min-height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 34px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 18px;
+  background: var(--surface-color);
+  box-shadow: 0 12px 30px rgba(10, 30, 90, 0.08);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.partner-logo-card:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 35%);
+  box-shadow: 0 18px 36px rgba(10, 30, 90, 0.12);
+}
+
+.partner-logo-card img {
+  max-width: 100%;
+  max-height: 72px;
+  object-fit: contain;
+  /* filter: grayscale(100%); */
+  opacity: 0.78;
+  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.partner-logo-card:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+@keyframes partner-slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% / 3));
+  }
+}
+
+@media (max-width: 991px) {
+  .partner-logo-card {
+    max-width: 210px;
+    width: auto;
+    min-height: 112px;
+    padding: 22px 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .partners {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .partner-slider {
+    gap: 0;
+    -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+    mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+  }
+
+  .partner-track {
+    gap: 16px;
+    animation-duration: 45s;
+  }
+
+  .partner-logo-card {
+    max-width: 170px;
+    width: auto;
+    min-height: 96px;
+    padding: 18px 22px;
+    border-radius: 14px;
+    margin-bottom: 16px;
+  }
+
+  .partner-logo-card img {
+    max-height: 56px;
+  }
 }
