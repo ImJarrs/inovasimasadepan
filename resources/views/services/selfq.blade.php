@@ -1,9 +1,5 @@
 @include('layouts.header')
 
-@push('styles')
-    @vite('assets/css/selfq.css')
-@endpush
-
 <style>
     @import url('{{ asset('assets/css/splus.css') }}');
 </style>
@@ -183,7 +179,7 @@ Dispensing speed: ~1.0 sec
 @endphp
 
 
-<header id="header" class="header-blog d-flex align-items-center fixed-top">
+<header id="header" class="header-contrast d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
         <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto me-lg-0">
             <img src="{{ asset('assets/img/header-logo.webp') }}" alt="IMD">

@@ -11,7 +11,7 @@
     "src": "_vendor-DvB2Xm2x.css"
   },
   "resources/css/app.css": {
-    "file": "assets/app-BZGrhtJH.css",
+    "file": "assets/app-M-oI8VAE.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -20,7 +20,7 @@
     ]
   },
   "resources/css/recom.css": {
-    "file": "assets/recom-DRbHtel2.css",
+    "file": "assets/recom-C5A8ECmL.css",
     "src": "resources/css/recom.css",
     "isEntry": true,
     "name": "recom",
@@ -29,7 +29,7 @@
     ]
   },
   "resources/css/selfq.css": {
-    "file": "assets/selfq-CGNUNkUG.css",
+    "file": "assets/selfq-DpI8fUha.css",
     "src": "resources/css/selfq.css",
     "isEntry": true,
     "name": "selfq",
@@ -38,7 +38,7 @@
     ]
   },
   "resources/css/splus.css": {
-    "file": "assets/splus-BFNqDZ7u.css",
+    "file": "assets/splus-D-uQDjew.css",
     "src": "resources/css/splus.css",
     "isEntry": true,
     "name": "splus",
@@ -49,6 +49,10 @@
   "resources/img/about-us.webp": {
     "file": "assets/about-us-DedpLKp1.webp",
     "src": "resources/img/about-us.webp"
+  },
+  "resources/img/benefitsp/benefit-selfq.webp": {
+    "file": "assets/benefit-selfq-Dg_vvq_2.webp",
+    "src": "resources/img/benefitsp/benefit-selfq.webp"
   },
   "resources/img/bg-footer.webp": {
     "file": "assets/bg-footer-DoVjRQ1a.webp",
@@ -74,6 +78,10 @@
     "file": "assets/selfq-banner-YtRrcwRt.webp",
     "src": "resources/img/selfq-banner.webp"
   },
+  "resources/img/slocks/7.png": {
+    "file": "assets/7-Bv9FtB06.png",
+    "src": "resources/img/slocks/7.png"
+  },
   "resources/img/splus-banner-mobile.webp": {
     "file": "assets/splus-banner-mobile-DTBMK378.webp",
     "src": "resources/img/splus-banner-mobile.webp"
@@ -81,10 +89,6 @@
   "resources/img/splus-banner.webp": {
     "file": "assets/splus-banner-6A-4vF3E.webp",
     "src": "resources/img/splus-banner.webp"
-  },
-  "resources/img/visi-mobile.webp": {
-    "file": "assets/visi-mobile-HrCRbqdR.webp",
-    "src": "resources/img/visi-mobile.webp"
   },
   "resources/js/app.js": {
     "file": "assets/app-BcGxXq9v.js",

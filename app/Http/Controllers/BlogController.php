@@ -158,6 +158,13 @@ class BlogController extends Controller
 
     public function detail($slug){
         $blog = Blog::where('slug', $slug)->firstOrFail();
-        return view('blog.details', compact('blog'));
+        
+        // Mengambil 4 artikel terbaru selain artikel yang sedang dibuka
+        $recentBlogs = Blog::where('id', '!=', $blog->id)
+                           ->orderBy('created_at', 'desc')
+                           ->take(4)
+                           ->get();
+
+        return view('blog.details', compact('blog', 'recentBlogs'));
     }
 }
