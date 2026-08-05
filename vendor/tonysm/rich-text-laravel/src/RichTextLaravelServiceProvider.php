@@ -1,0 +1,38 @@
+<?php
+
+namespace Tonysm\RichTextLaravel;
+
+use Illuminate\View\Compilers\BladeCompiler;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Tonysm\RichTextLaravel\Commands\InstallCommand;
+use Tonysm\RichTextLaravel\Commands\SwapCommand;
+
+class RichTextLaravelServiceProvider extends PackageServiceProvider
+{
+    public function configurePackage(Package $package): void
+    {
+        /*
+         * This class is a Package Service Provider
+         *
+         * More info: https://github.com/spatie/laravel-package-tools
+         */
+        $package
+            ->name('rich-text-laravel')
+            ->hasConfigFile()
+            ->hasViews()
+            ->hasMigration('create_rich_texts_table')
+            ->hasCommand(InstallCommand::class)
+            ->hasCommand(SwapCommand::class)
+            ->hasAssets();
+    }
+
+    public function packageBooted(): void
+    {
+        $this->app->scoped(AssetsManager::class);
+
+        $this->callAfterResolving('blade.compiler', function (BladeCompiler $blade): void {
+            $blade->anonymousComponentPath(dirname(__DIR__).implode(DIRECTORY_SEPARATOR, ['', 'resources', 'views', 'components']), 'rich-text');
+        });
+    }
+}
