@@ -1,7 +1,7 @@
 <?php return array (
   'hugeicons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\afatmustafa\\blade-hugeicons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/afatmustafa/blade-hugeicons/src/../resources/svg' => 
     array (
       0 => 'a-arrow-down',
       1 => 'a-arrow-up',
@@ -6207,7 +6207,7 @@
   ),
   'heroicons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\blade-ui-kit\\blade-heroicons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/blade-ui-kit/blade-heroicons/src/../resources/svg' => 
     array (
       0 => 'c-academic-cap',
       1 => 'c-adjustments-horizontal',
@@ -7501,7 +7501,7 @@
   ),
   'carbon-icons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\codeat3\\blade-carbon-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/codeat3/blade-carbon-icons/src/../resources/svg' => 
     array (
       0 => '4k',
       1 => '4k-filled',
@@ -9912,7 +9912,7 @@
   ),
   'fluentui-system-icons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\codeat3\\blade-fluentui-system-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/codeat3/blade-fluentui-system-icons/src/../resources/svg' => 
     array (
       0 => 'access-time-20',
       1 => 'access-time-20-o',
@@ -21737,7 +21737,7 @@
   ),
   'google-material-design-icons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\codeat3\\blade-google-material-design-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/codeat3/blade-google-material-design-icons/src/../resources/svg' => 
     array (
       0 => '10k',
       1 => '10k-o',
@@ -32494,7 +32494,7 @@
   ),
   'phosphor-icons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\codeat3\\blade-phosphor-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/codeat3/blade-phosphor-icons/src/../resources/svg' => 
     array (
       0 => 'acorn',
       1 => 'acorn-bold',
@@ -41572,7 +41572,7 @@
   ),
   'simple-line-icons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\codeat3\\blade-simple-line-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/codeat3/blade-simple-line-icons/src/../resources/svg' => 
     array (
       0 => 'action-redo',
       1 => 'action-undo',
@@ -41767,7 +41767,7 @@
   ),
   'bootstrap-icons' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\davidhsianturi\\blade-bootstrap-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/davidhsianturi/blade-bootstrap-icons/src/../resources/svg' => 
     array (
       0 => '0-circle',
       1 => '0-circle-fill',
@@ -43851,7 +43851,7 @@
   ),
   'lucide' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\mallardduck\\blade-lucide-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/mallardduck/blade-lucide-icons/src/../resources/svg' => 
     array (
       0 => 'a-arrow-down',
       1 => 'a-arrow-up',
@@ -45855,7 +45855,7 @@
   ),
   'fontawesome-brands' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\owenvoke\\blade-fontawesome\\src/../resources/svg/brands' => 
+    '/DATA/inovasi5/imd_dev/vendor/owenvoke/blade-fontawesome/src/../resources/svg/brands' => 
     array (
       0 => '42-group',
       1 => '500px',
@@ -46390,7 +46390,7 @@
   ),
   'fontawesome-regular' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\owenvoke\\blade-fontawesome\\src/../resources/svg/regular' => 
+    '/DATA/inovasi5/imd_dev/vendor/owenvoke/blade-fontawesome/src/../resources/svg/regular' => 
     array (
       0 => 'address-book',
       1 => 'address-card',
@@ -46632,7 +46632,7 @@
   ),
   'fontawesome-solid' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\owenvoke\\blade-fontawesome\\src/../resources/svg/solid' => 
+    '/DATA/inovasi5/imd_dev/vendor/owenvoke/blade-fontawesome/src/../resources/svg/solid' => 
     array (
       0 => 0,
       1 => 1,
@@ -48396,7 +48396,7 @@
   ),
   'blade-mdi' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\postare\\blade-mdi\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/postare/blade-mdi/src/../resources/svg' => 
     array (
       0 => 'ab-testing',
       1 => 'abacus',
@@ -55849,7 +55849,7 @@
   ),
   'tabler' => 
   array (
-    'C:\\inovasimasadepan\\imd\\vendor\\secondnetwork\\blade-tabler-icons\\src/../resources/svg' => 
+    '/DATA/inovasi5/imd_dev/vendor/secondnetwork/blade-tabler-icons/src/../resources/svg' => 
     array (
       0 => 'a-b',
       1 => 'a-b-2',
